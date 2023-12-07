@@ -1,5 +1,4 @@
 import re
-from functools import reduce
 
 with open('input') as input:
     text = input.read()
