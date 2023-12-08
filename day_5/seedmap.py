@@ -66,7 +66,7 @@ class MappingEntry:
         self.range  = Range(src_start, src_start+length-1)
         self.offset = dst_start - src_start
         self.next   = None
-    
+
     def travel(self, rl : RangeList):
         rangelist = RangeList([])
         for r in rl.list:
