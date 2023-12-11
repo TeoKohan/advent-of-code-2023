@@ -82,7 +82,7 @@ for dir in Direction:
         LOOP.add(spider)
         steps += 1
     if spider == S:
-        furthest = max(furthest, steps//2)
+        furthests = max(furthest, steps//2)
 
 simple_grid = [line[:] for line in grid]
 for i in range(len(grid)):
